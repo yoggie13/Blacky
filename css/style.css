@@ -1,0 +1,74 @@
+body {
+    background-image: url("../img/background.png");
+}
+
+
+.navbar {
+    display: flex; 
+    justify-content: center;
+}
+.nav{
+    display: inline-flex;
+    align-content: center;
+
+}
+.nav-link {
+    text-align: center;
+    font-size: 15pt;
+    font-family: cursive;
+    padding: 4px;
+    margin: 1px;
+    list-style-type: none;
+    border: 4px solid white;
+    border-radius: 8px;
+    width: 150px;
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: white;
+}
+
+.toggle {
+    display:none;
+    color:white;
+}
+
+@media screen and (max-width: 768px) {
+    .toggle {
+        align-self: flex-start;
+        display: block;
+        position: absolute;
+        cursor: pointer;
+    }
+    .nav {
+        flex-direction: column;
+        padding: 4px 0px;
+    }
+    .nav-link {
+        display: none;
+        margin: 1px 0px;
+    }
+    
+}
+#timer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 40pt;
+    color:white;
+}
+#SaturdayMessage{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 30pt;
+    color:white;
+}
+
+
+
+
+
