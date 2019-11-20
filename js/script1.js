@@ -10,6 +10,3 @@ function dropDownMenu() {
       n.removeAttribute("style");
   }
 }
-
-
-

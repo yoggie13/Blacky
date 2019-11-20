@@ -2,7 +2,7 @@
 var IIFE = function Timer(Saturday) {
 
     if (Saturday == null)
-        Saturday = new Date("Nov 20, 2019 15:02:00");
+        Saturday = new Date("Nov 27, 2019 13:48:00");
 
     // Update the count down every 1 second
     var x = setInterval(function () {
@@ -21,7 +21,10 @@ var IIFE = function Timer(Saturday) {
         
        if (days <= 6 && hours < 20) {
             document.getElementById("SaturdayMessage").innerHTML = "";
+        }else{
+            document.getElementById("SaturdayMessage").innerHTML = "Današnja isporuka je na putu!";
         }
+
         
         // Display the result in the element with id="demo"
         document.getElementById("timer").innerHTML = days + " dana " + hours + " sati "
@@ -32,7 +35,6 @@ var IIFE = function Timer(Saturday) {
             clearInterval(x);
             Saturday.setDate(Saturday.getDate() + 7);
             Timer(Saturday);
-            document.getElementById("SaturdayMessage").innerHTML = "Današnja isporuka je na putu! :)";
         }
     });
 
