@@ -1,0 +1,19 @@
+/*TIMER*/
+#timer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Shadows Into Light', bold;
+    font-size: 60pt;
+    color:white;
+    margin-top: 15%;
+}
+#SaturdayMessage{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Impact';
+    font-size: 30pt;
+    color:white;
+    margin-top: 5%;
+}

@@ -1,7 +1,7 @@
+/* GENERAL STYLE */
 body {
     background-image: url("../img/background.png");
 }
-
 
 .navbar {
     display: flex; 
@@ -51,22 +51,7 @@ body {
     }
     
 }
-#timer{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium';
-    font-size: 40pt;
-    color:white;
-}
-#SaturdayMessage{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium';
-    font-size: 30pt;
-    color:white;
-}
+
 
 
 

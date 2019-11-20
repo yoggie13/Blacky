@@ -2,7 +2,7 @@
 var IIFE = function Timer(Saturday) {
 
     if (Saturday == null)
-        Saturday = new Date("Nov 20, 2019 13:59:00");
+        Saturday = new Date("Nov 20, 2019 15:02:00");
 
     // Update the count down every 1 second
     var x = setInterval(function () {
@@ -18,15 +18,14 @@ var IIFE = function Timer(Saturday) {
         var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-       if (days < -1) {
+        
+       if (days <= 6 && hours < 20) {
             document.getElementById("SaturdayMessage").innerHTML = "";
-            console.log();
         }
-
+        
         // Display the result in the element with id="demo"
-        document.getElementById("timer").innerHTML = days + "dana " + hours + "sati "
-            + minutes + "minuta " + seconds + "sekundi do sledeće isporuke";
+        document.getElementById("timer").innerHTML = days + " dana " + hours + " sati "
+            + minutes + " minuta i " + seconds + " sekundi do sledeće isporuke";
 
         // If the count down is finished, write some text
         if (distance < 0) {
