@@ -33,6 +33,7 @@
     justify-content: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
+    margin-top: 60px;
 }
 
 .sliderContainer p {
@@ -96,4 +97,17 @@
     border-radius: 50%;
     background: url(../img/slider.svg);
     cursor: pointer;
+}
+
+.hej {
+    font-size: 40pt;
+    font-family: Satisfy, cursive;
+    text-align: center;
+}
+
+button {
+    height: 40px;
+    width: 90px;
+    font-family: 'Amatic SC';
+    font-size: 20pt;
 }

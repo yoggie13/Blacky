@@ -1,26 +1,28 @@
 /*TIMER*/
-#timer{
+
+#timer {
     display: flex;
     justify-content: center;
     text-align: center;
-    font-family: 'Shadows Into Light', bold;
+    font-family: 'Coming Soon';
     font-size: 60pt;
-    color:white;
+    color: white;
     margin-top: 2%;
 }
-#SaturdayMessage{
+
+#SaturdayMessage {
     display: flex;
     justify-content: center;
     text-align: center;
     font-family: 'Impact';
     font-size: 30pt;
-    color:white;
+    color: white;
     margin-top: 0%;
 }
 
-#logo{
+#logo {
     display: flex;
-    margin:auto;
+    margin: auto;
     justify-content: center;
     width: 250px;
     height: 250px;
