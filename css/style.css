@@ -1,17 +1,23 @@
 /* GENERAL STYLE */
+
 body {
     background-image: url("../img/background.png");
+    margin: 0;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .navbar {
-    display: flex; 
+    display: flex;
 }
-.navi{
+
+.navi {
     display: inline-flex;
     margin: auto;
     align-self: center;
-
+    padding: 0;
 }
+
 .nav-link {
     text-align: center;
     font-size: 15pt;
@@ -25,27 +31,27 @@ body {
     align-self: center;
 }
 
-.nav-link a{
+.nav-link a {
     text-decoration: none;
     color: white;
     margin: 0 auto;
 }
 
 .toggle {
-    display:none;
-    color:white;
+    display: none;
+    color: white;
 }
-.home{
+
+.home {
     color: white;
     align-self: left;
     margin: 2px 0px 0px 1px;
-
 }
-a{
+
+a {
     text-decoration: none;
     color: inherit;
 }
-
 
 @media screen and (max-width: 768px) {
     .toggle {
@@ -64,7 +70,7 @@ a{
         display: none;
         margin: 1px 0px;
     }
-    .home{
+    .home {
         display: none;
-    }  
+    }
 }

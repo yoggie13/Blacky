@@ -1,0 +1,29 @@
+#wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.slike {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-items: center;
+}
+
+.nase_slike {
+    width: 250px;
+}
+
+body {
+    margin: 0;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tekst {
+    margin-top: 40px;
+}
