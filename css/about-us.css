@@ -28,3 +28,31 @@ body {
 .tekst {
     margin-top: 40px;
 }
+
+@media screen and (max-width: 1000px){
+    #wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        width:auto;
+    }
+    .tekst{
+        margin:auto;
+    }
+    .slike{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left:20px;
+        margin-right: 20px;
+        margin:auto;
+        width: auto;
+    }
+    .nase_slike {
+        width: 250px;
+        margin: 10px;
+    }
+   
+}
