@@ -1,72 +1,63 @@
-.sliderContainer p {
-    margin-top: 50px;
-    opacity: 0.7;
-    font-size: 2rem;
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
 }
 
-.wrapper {
-    margin: 50px 15px;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-}
-
-
-/* PRVA KOLONA */
-
-.packing {
-    height: 800px;
+.part {
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 #first {
-    flex: 1 35%;
-    /* justify-content: center; */
-    text-align: center;
-    /* align-content: center; */
+    margin: 20px;
+    justify-self: center;
+    align-self: center;
+}
+
+#second {
+    margin: 20px;
+    justify-self: center;
+    align-self: center;
 }
 
 #pakovanje {
-    margin-top: 170px;
+    margin-top: 100px;
 }
 
-
-/* DRUGA KOLONA */
-
 .sliderContainer {
-    width: 60%;
-    height: 800px;
+    width: 100%;
+}
+
+.sliderContainer h2 {
     align-content: center;
     justify-content: center;
-    margin: 500px auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.sliderContainer p {
+    margin-top: 50px;
+    opacity: 0.7;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
 }
 
 .slider::after {
-    content: '100';
+    content: '3000g';
     color: white;
     font-size: 2rem;
     position: absolute;
-    left: 80%;
-    top: 200px;
+    right: 0;
+    bottom: -50px;
 }
 
 .slider::before {
-    content: '500';
+    content: '500g';
     color: white;
     font-size: 2rem;
     position: absolute;
-    left: 12%;
-    top: 60%;
+    left: 0;
+    bottom: -50px;
 }
 
 .slider {
@@ -82,6 +73,7 @@
     -webkit-transition: .2s;
     transition: opacity .2s;
     box-shadow: 0px 1px 10px 1px white;
+    position: relative;
 }
 
 .slider:hover {
@@ -104,8 +96,4 @@
     border-radius: 50%;
     background: url(../img/slider.svg);
     cursor: pointer;
-}
-
-#second {
-    flex: 1 65%;
 }
