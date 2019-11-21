@@ -1,12 +1,21 @@
-.slike_kafe{
+#wrap {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.slike_kafe {
     display: grid;
     grid-template-columns: auto auto auto auto;
 }
 
-.kafa{
+.kafa {
     display: block;
-  max-width:500px;
-  max-height:220px;
-  width: auto;
-  height: auto;
+    max-width: 500px;
+    max-height: 220px;
+    width: auto;
+    height: auto;
+}
+
+.tekst {
+    margin-top: 50px;
 }
