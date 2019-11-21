@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NARUČI CRNU</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="./css/order.css">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/b29c49e560.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- ZAGLAVLJE -->
+
+    <header>
+        <nav class="navbar">
+            <span class="toggle">
+                <i class="fas fa-bars fa-lg" onClick=dropDownMenu()></i>
+            </span>
+            <ul class="navi">
+                <li class="nav-link" id="u"><a href="index.html">Početna</a></li>
+                <li class="nav-link" id="u"><a href="about-blacky.html">O našoj crnoj</a></li>
+                <li class="nav-link" id="u"><a href="order.html">Naruči crnu</a></li>
+                <li class="nav-link" id="u"><a href="about-us.html">O nama</a></li>
+                <li class="nav-link" id="u"><a href="contact.html">Kontaktiraj nas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ORDER KARTICA -->
+    <div class="">
+        <div class='row'>
+            <div class='column' id='first'>
+                <div class='packing'>
+                    <img src="./img/coffee.jpeg" id='pakovanje' alt="Pakovanje naše kafe">
+                </div>
+            </div>
+            <div class='column' id='second'>
+                <div class='sliderContainer'>
+                    <input type="range" min="500" max="3000" value="500" class="slider" id="myRange">
+                    <p>Value: <span id="value"></span>g</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="./js/slider.js"></script>
+
+</html>
