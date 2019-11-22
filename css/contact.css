@@ -67,7 +67,7 @@
         display: inline-flex;
         margin-left: 20px;
         margin-right: 20px;
-        margin-top: 50px;
+        margin-top: 20px;
         margin-bottom: 0;
     }
 }
@@ -81,11 +81,25 @@
 }
 
 @media screen and (max-width: 600px) {
+    .twist {
+        margin: auto;
+        margin-top: 0;
+    }
     #i {
         width: 400px;
     }
     #m {
         width: 400px;
         height: 375px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    #i {
+        width: 150x;
+    }
+    #m {
+        width: 150px;
+        height: 300px;
     }
 }
