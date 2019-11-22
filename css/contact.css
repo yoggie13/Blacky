@@ -79,3 +79,13 @@
         margin-bottom: 0;
     }
 }
+
+@media screen and (max-width: 600px) {
+    #i {
+        width: 400px;
+    }
+    #m {
+        width: 400px;
+        height: 375px;
+    }
+}
