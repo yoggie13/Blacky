@@ -45,29 +45,49 @@
                     <i><p class="hej"><span class="hej" id="price"></span></p></i>
                     <input type="range" min="500" max="3000" value="500" step="100" class="slider" id="myRange">
                     <h2>Odaberi svoju količinu!</h2>
-                    <button onclick="openForm()">Naruči</button>
+                    <button id="btn" onclick="openForm()">Naruči</button>
                 </div>
             </div>
 
         </div>
     </div>
-    <footer>
-        <div class="left">
-            <p>&copy CRNO o.d. 2019</p><br>
-            <a href="http:/facebook.com/petar.milatovic.716"><i class="fas fa-facebook-2x"></i></a>
-            <a href="http:/www.instagram.com/booriiiis"> <i class="fas fa-instagram-2x"></i></a>
-            <a href="http:/www.linkedin.com/in/ognjennikolic13/"><i class="fas fa-linkedin-2x"></i></a>
+    <div class="form" id="form">
+        <div class="form-content">
+            <span class="close">&times;</span>
+            <p id="tit"><b>Još malo i kafa je Vaša</b></p>
+            <form name="order-form">
+                <p><b>Ime:</b></p>
+                <input type="text" name="name" id="inp" required>
+                <p><b>Prezime:</b></p>
+                <input type="text" name="surname" id="inp" required>
+                <p><b>Mejl:</b></p>
+                <input type="email" name="mail" id="inp" required>
+                <p><b>Adresa:</b></p>
+                <input type="text" name="adress" id="inp" required>
+                <p id="pr"></p>
+                <p>Da li želite da primate naše newsletter-e (baš su slatki)? <input type="checkbox" name="newsletter"></p>
+                <input type="submit">
+            </form>
         </div>
-        <div class="right">
-            <p><a href="index.html">Početna</a></p>
-            <p><a href="about-blacky.html">O našoj crnoj</a></p>
-            <p><a href="order.html">Naruči crnu</a></p>
-            <p><a href="about-us.html">O nama</a></p>
-            <p><a href="contact.html">Kontaktiraj nas</a></p>
+    </div>
+    </div>
+    <footer>
+        <div class="left ">
+            <p>&copy CRNO o.d. 2019</p><br>
+            <a href="http:/facebook.com/petar.milatovic.716 "><i class="fas fa-facebook-2x "></i></a>
+            <a href="http:/www.instagram.com/booriiiis "> <i class="fas fa-instagram-2x "></i></a>
+            <a href="http:/www.linkedin.com/in/ognjennikolic13/ "><i class="fas fa-linkedin-2x "></i></a>
+        </div>
+        <div class="right ">
+            <p><a href="index.html ">Početna</a></p>
+            <p><a href="about-blacky.html ">O našoj crnoj</a></p>
+            <p><a href="order.html ">Naruči crnu</a></p>
+            <p><a href="about-us.html ">O nama</a></p>
+            <p><a href="contact.html ">Kontaktiraj nas</a></p>
         </div>
     </footer>
 </body>
 
-<script src="./js/slider.js"></script>
+<script src="./js/slider.js "></script>
 
 </html>
