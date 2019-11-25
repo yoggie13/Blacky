@@ -1,6 +1,7 @@
 .wrap {
     width: 1000px;
     margin: 0 auto;
+    margin-bottom: 33px;
 }
 
 .part {
@@ -112,6 +113,17 @@ button {
     font-size: 20pt;
 }
 
+@media screen and (max-width: 1000px) {
+    .wrap {
+        width: auto;
+    }
+    .part {
+        grid-template-rows: 50% 50%;
+        grid-template-columns: none;
+        justify-content: center;
+    }
+}
+
 
 /*FORMA*/
 
@@ -159,5 +171,3 @@ button {
     text-decoration: none;
     cursor: pointer;
 }
-
-@media screen and(max-width:1000px) {}

@@ -22,7 +22,8 @@
 #wrap {
     display: inline-flex;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 #i {
@@ -38,6 +39,14 @@
     display: flex;
     text-align: justify;
     margin-top: 50px;
+}
+
+#radio {
+    display: inline-flex;
+}
+
+#cek {
+    display: inline-flex;
 }
 
 @media screen and (max-width: 1000px) {

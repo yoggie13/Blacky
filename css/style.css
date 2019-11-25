@@ -83,7 +83,7 @@
         margin-bottom: 5px;
     }
     
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 850px) {
         .toggle {
             align-self: flex-start;
             display: block;
