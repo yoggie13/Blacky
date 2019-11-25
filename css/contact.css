@@ -97,6 +97,9 @@
     #i {
         width: 400px;
     }
+    #e {
+        width: 400px;
+    }
     #m {
         width: 400px;
         height: 375px;
@@ -105,6 +108,9 @@
 
 @media screen and (max-width: 300px) {
     #i {
+        width: 150x;
+    }
+    #e {
         width: 150x;
     }
     #m {
